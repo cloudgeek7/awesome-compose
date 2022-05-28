@@ -20,7 +20,7 @@ FROM base AS builder
 
 RUN cargo build --release --offline
 
-FROM debian:buster-slim
+FROM debian:10.12-slim
 
 ENV ROCKET_ENV=production
 
