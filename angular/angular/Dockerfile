@@ -1,4 +1,4 @@
-FROM node:17.0.1-bullseye-slim
+FROM node:17.4-bullseye-slim
 
 RUN mkdir /project
 WORKDIR /project
