@@ -1,4 +1,4 @@
-FROM node:14.18.2-alpine
+FROM node:14.19.2-alpine
 
 RUN mkdir /project
 WORKDIR /project
