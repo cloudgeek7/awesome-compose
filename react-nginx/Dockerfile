@@ -23,7 +23,7 @@ FROM development AS build
 RUN npm run build
 
 # 2. For Nginx setup
-FROM nginx:alpine
+FROM nginx:1.23.2-alpine
 
 # Copy config nginx
 COPY --from=build /app/.nginx/nginx.conf /etc/nginx/conf.d/default.conf
