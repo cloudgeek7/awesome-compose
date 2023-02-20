@@ -38,7 +38,7 @@ FROM base AS builder
 
 RUN cargo build --release --offline
 
-FROM debian:buster-slim
+FROM debian:bullseye-20230208-slim
 
 ENV ROCKET_ENV=production
 
