@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1.4
 
 # Create image based on the official Node image from dockerhub
-FROM node:19.6.0-bullseye-slim AS development
+FROM node:19.6.1-bullseye-slim AS development
 
 # Create app directory
 WORKDIR /usr/src/app
