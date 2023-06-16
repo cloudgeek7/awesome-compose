@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1.4
 
-FROM node:19.7-bullseye-slim AS development
+FROM node:19.9.0-bullseye-slim AS development
 
 # Create app directory
 WORKDIR /usr/src/app
