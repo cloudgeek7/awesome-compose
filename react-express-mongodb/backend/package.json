@@ -18,8 +18,8 @@
     "cors": "^2.8.4",
     "express": "^4.17.1",
     "lodash": "^4.17.13",
-    "mongodb": "^3.0.7",
-    "mongoose": "^6.0.9",
+    "mongodb": "^3.6.10",
+    "mongoose": "^6.12.0",
     "simple-node-logger": "^18.12.23",
     "validator": "^13.7.0"
   },
